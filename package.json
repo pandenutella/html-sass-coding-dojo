@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pandenutella/html-sass-coding-dojo/issues"
   },
-  "homepage": "https://github.com/pandenutella/html-sass-coding-dojo#readme"
+  "homepage": "https://github.com/pandenutella/html-sass-coding-dojo#readme",
+  "devDependencies": {
+    "sass": "^1.54.3"
+  }
 }
