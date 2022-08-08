@@ -4,7 +4,8 @@
   "description": "1. Create a new npm project by running the ff. in your terminal:\r    ```cmd\r    npm init -y\r    ```\r 2. Create a `.gitignore` file containing the `node_modules` folder.\r    ```\r    node_modules\r    ```\r 3. Install `sass` by running the ff.:\r    ```cmd\r    npm install --save-dev sass\r    ```\r 4. Create a `src` folder by running the ff.:\r    ```cmd\r    mkdir src\r    ```\r 5. Create an empty `index.scss` file in `src` folder.\r 6. Write an npm script for transpiling your `scss codes to css` by adding the below property in your `package.json` under `scripts`.\r    ```json\r    \"sass:watch\": \"sass --watch src/index.scss:src/index.css\"\r    ```\r 7. Run the watch script by running the ff. in your terminal:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch src/index.scss:src/index.css"
   },
   "repository": {
     "type": "git",
